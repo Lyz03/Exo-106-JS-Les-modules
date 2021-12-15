@@ -1,4 +1,4 @@
-import {createDiv, createInput, createLabel} from "./HTML"
+import {createDiv, createInput, createLabel} from "./HTML.js"
 
 const result = document.getElementById('result')
 
@@ -16,3 +16,4 @@ result.appendChild(newLabel2);
 
 let newInput2 = createInput('password', "value", "input2");
 result.appendChild(newInput2);
+
