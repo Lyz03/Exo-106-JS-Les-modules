@@ -17,7 +17,7 @@ function createInput(inputType, inputValue, inputId) {
 
 function createLabel(labelFor, labelValue) {
     let label = document.createElement('label');
-    label.for = labelFor;
+    label.setAttribute("for",  labelFor);
     label.innerHTML = labelValue;
     return label
 }
